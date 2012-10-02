@@ -24,6 +24,7 @@ end
 
 package "riak" do
   Chef::Provider::Package::Dpkg
+  version "1.2.0-1"
   source "#{store_dir}/riak_1.2.0-1_amd64.deb"
   action :install
 end
