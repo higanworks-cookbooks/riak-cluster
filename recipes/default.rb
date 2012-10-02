@@ -22,9 +22,8 @@ remote_file "#{store_dir}/riak_1.2.0-1_amd64.deb" do
   action :create_if_missing
 end
 
-package "riak_1.2.0-1_amd64.deb" do
+dpkg_package "riak_1.2.0-1_amd64.deb" do
   Chef::Provider::Package::Dpkg
   source "#{store_dir}/riak_1.2.0-1_amd64.deb"
-  version ""
   action :install
 end
