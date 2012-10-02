@@ -1,11 +1,9 @@
 Description
 ===========
 
-Requirements
-============
+Install Riak from dpkg.
 
-Attributes
-==========
+start service and join cluster (not yet).
 
 Usage
 =====
